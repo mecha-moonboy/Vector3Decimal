@@ -27,11 +27,6 @@ This amount of precision will allow me to simulate a unimaginably larger space.
 Documentation
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 
 | ...                                               | ...                                                |
 | ------------------------------------------------- | -------------------------------------------------- |
