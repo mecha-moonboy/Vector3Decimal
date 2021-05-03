@@ -27,16 +27,16 @@ This amount of precision will allow me to simulate a unimaginably larger space.
 Documentation
 
 
-
-|`up`|`new Vector3Decimal(0, 1, 0)`|
-|`right`|`new Vector3Decimal(1, 0, 0)`|
-|`forward`|`new Vector3Decimal(0, 0, 1)`|
-|`zero`|`new Vector3Decimal(0, 0, 0)`|
-|`ToVector3f()`|`Vector3` from `this`.|
-|`Distance(Vector3Decimal a, Vector3Decimal b)`|Distance from `a` to `b`.|
-|`Dot()`|Returns the dot product as a `decimal`.|
-|`Cross(Vector3Decimal a, Vector3Decimal b)`|Cross product of `a` and `b` as a `Vector3Decimal`|
-|`ToString()`|String representation of `this`.|
+| ...   | ... |
+| `up` | `new Vector3Decimal(0, 1, 0)` |
+| `right` | `new Vector3Decimal(1, 0, 0)` |
+| `forward` | `new Vector3Decimal(0, 0, 1)` |
+| `zero` | `new Vector3Decimal(0, 0, 0)` |
+| `ToVector3f()` | `Vector3` from `this`. |
+| `Distance(Vector3Decimal a, Vector3Decimal b)` | Distance from `a` to `b`. |
+| `Dot()` | Returns the dot product as a `decimal`. |
+| `Cross(Vector3Decimal a, Vector3Decimal b)` | Cross product of `a` and `b` as a `Vector3Decimal` |
+| `ToString()` | String representation of `this`. |
 
 This class is dependent on DecimalMath by nathanpjones.
 
