@@ -66,5 +66,5 @@ void UnloadBody(Body bod)
    
 }
 ```
-This is an Unload() function I wrote for Stardeep. physics_properties.velocity and transform.postion are both Vector3s, but as you can see, I do arithmetic without needing to case the Vector3s.
+This is an `Unload()` function I wrote for Stardeep. `physics_properties.velocity` and `transform.postion` are both `Vector3`s, but as you can see, I do arithmetic without needing to case the `Vector3`s.
 
