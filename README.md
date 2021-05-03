@@ -49,14 +49,20 @@ This class is dependent on DecimalMath by nathanpjones.
 
 I have made this struct nearly completely interchangeable with the `Vector3` type. Here’s an example:
 
-`void UnloadBody(Body bod)
+```void UnloadBody(Body bod)
 {
    Vector3Decimal pos = _obs_body._global_position + bod.transform.position; // position from reference frame position + difference
+   
    bod._global_position = pos;
+   
    Vector3Decimal vel =  _obs_body._global_velocity + bod.physics_properties.velocity; // velocity from reference frame position + difference
+   
    bod._global_velocity = vel;
+   
    _loaded_bodies.Remove(bod);
+   
    bod.gameObject.SetActive(false);
-}`
+   
+}```
 This is an Unload() function I wrote for Stardeep. physics_properties.velocity and transform.postion are both Vector3s, but as you can see, I do arithmetic without needing to case the Vector3s.
 
