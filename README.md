@@ -1,5 +1,5 @@
 # Vector3Decimal
-Stores a 3D vector as decimal values.
+Stores a 3D vector as decimal values. Created for usage with Unity. Non-unity `Vector3Decimal` coming soon.
 
 Why?
 A `float` can only store 7 digits of precision and `Vector3` uses `float`, limiting the precision of the vector at high magnitudes. To demonstrate:
